@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos1.css">
+    <style>
+       
+    </style>
+    <title>MONOLITP BENNETT</title>
+</head>
+<body>
+    <H1>CESAR QUISPE CHIPANA     PARALELO:"C"</H1>
+    <div class="nombre">
+        <div class="C"></div>
+        <div class="E"></div>
+        <div class="S"></div>
+        <div class="A"></div>
+        <div class="R"></div>
+    </div>
+    <div class="monolito">
+        <div class="rostro">
+            <div class="ojo" ></div>
+            <div class="ojo2" ></div>
+            <div class="boca" ></div>
+        </div>
+        <div class="torax"></div>
+        <div class="cabecera"></div>
+        <div class="pies"></div>
+        <div class="pies1"></div>
+        <div class="pies2"></div>
+        <div class="pies3"></div>
+        <div class="cinturon"></div>
+    </div>
+</body>
+
+
+
+ESTILOS
+
+
+.monolito {
+    position: relative;
+    width: 100px;
+    height: 300px;
+    margin: 50px auto;
+}
+.rostro {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+    background: rgb(218, 170, 25);
+    border-radius: 8px;
+    border: 3px solid black;
+}
+.ojo{
+    margin-top: 18px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: 10px;
+    height: 10px;
+    background: rgb(218, 170, 25);;
+    
+    border: 3px solid black;
+    
+
+}
+.ojo2{
+    margin-top: 18px;
+    position: absolute;
+    top: 0;
+    left: 35px;
+    width: 10px;
+    height: 10px;
+    background: rgb(218, 170, 25);;
+    
+    border: 3px solid black;
+}
+.boca{
+    margin-top: 35px;
+    position: absolute;
+    top: 0;
+    left: 8px;
+    width: 40px;
+    height: 8px;
+    background:rgb(218, 170, 25);
+    
+    border: 3px solid black;
+    
+}
+.torax {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    width: 80px;
+    height: 135px;
+    background: rgb(218, 170, 25);
+    border-radius: 8px;
+    border: 3px solid black;
+}
+.cabecera {
+    position: absolute;
+    top: px;
+    left: 12px;
+    width: 75px;
+    height: 15px;
+    background: rgb(218, 170, 25);
+    border-radius: 5px;
+    border: 3px solid black;
+}
+.pies {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    width: 60px;
+    height: 80px;
+    background: rgb(218, 170, 25);;
+    border-radius: 8px;
+    border: 3px solid black;
+}
+.pies1 {
+    position: absolute;
+    top: 195px;
+    bottom: 0;
+    left: 15px;
+    width: 70px;
+    height: 25px;
+    background: rgb(218, 170, 25);
+    border-radius: 5px;
+    border: 3px solid black;
+}
+.pies2 {
+    position: absolute;
+    
+    bottom: 0;
+    left: 20px;
+    width: 60px;
+    height: 25px;
+    background: rgb(218, 170, 25);
+    border-radius: 8px;
+    border: 3px solid black;
+}
+.pies3 {
+    position: absolute;
+    top: 290px;
+    bottom: 0;
+    left: 15px;
+    width: 70px;
+    height: 10px;
+    background: rgb(218, 170, 25);
+    border-radius: 8px;
+    border: 3px solid black;
+}
+.cinturon {
+    position: absolute;
+    top: 180px;
+    left: 10px;
+    width: 80px;
+    height: 15px;
+    background: rgb(218, 170, 25);;
+    border-radius: 2px;
+    border: 3px solid black;
+}
